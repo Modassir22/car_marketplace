@@ -1,0 +1,108 @@
+const carCompany = [
+    {
+        id:1,
+        name:"BMW"
+    },
+    {
+        id:2,
+        name:"Audi"
+    },
+    {
+        id:3,
+        name:"Mercedies"
+    },
+    {
+        id:4,
+        name:"Ferrari"
+    },
+    {
+        id:5,
+        name:"Mustang Gt"
+    },
+    {
+        id:6,
+        name:"Mahindra"
+    }
+   
+]
+
+const carPricing = [
+    {
+        id:1,
+        amount:"$10000"
+    },
+    {
+        id:2,
+        amount:"$20000"
+    },
+    {
+        id:3,
+        amount:"$30000"
+    },
+    {
+        id:4,
+        amount:"$40000"
+    },
+    {
+        id:5,
+        amount:"$50000"
+    },
+    {
+        id:6,
+        amount:"$60000"
+    }
+]
+
+const category = [
+    {
+        id:1,
+        name:'SUV',
+        icon:'https://cdn-icons-png.flaticon.com/128/2736/2736781.png'
+    },
+    {
+        id:2,
+        name:'Sedan',
+        icon:'https://cdn-icons-png.flaticon.com/128/3202/3202003.png'
+    },
+    {
+        id:3,
+        name:'HetchBack',
+        icon:'https://cdn-icons-png.flaticon.com/128/5035/5035167.png'
+    },
+    {
+        id:4,
+        name:'Electric',
+        icon:'https://cdn-icons-png.flaticon.com/128/4564/4564336.png'
+    },
+    {
+        id:5,
+        name:'Convertible',
+        icon:'https://cdn-icons-png.flaticon.com/128/5035/5035202.png'
+    },
+    {
+        id:6,
+        name:'Hybrid',
+        icon:'https://cdn-icons-png.flaticon.com/128/3202/3202003.png'
+    },
+    {
+        id:7,
+        name:'Coupe',
+        icon:'https://cdn-icons-png.flaticon.com/128/4391/4391630.png'
+    },
+    {
+        id:8,
+        name:'Van',
+        icon:'https://cdn-icons-png.flaticon.com/128/1433/1433678.png'
+    },
+    {
+        id:9,
+        name:'Truck',
+        icon:'https://cdn-icons-png.flaticon.com/128/5814/5814855.png'
+    }
+]
+
+export default {
+    carCompany,
+    carPricing,
+    category
+}
